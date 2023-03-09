@@ -1,0 +1,36 @@
+Đăng Nhập, Đăng Kí , quên mật khẩu.
+Header , Navbar 
+Nam
+
+
+Trang Chủ
+	- hiển thị thông tin tài khoản 
+	- thông báo từ quản trị viên
+	- hiển thị tổng tiền, coin còn lại
+youtube
+	- view 
+	- theo dõi
+	- like
+tiktok
+	- cmt
+	- theo dõi
+	- tym video
+	- view
+
+Tài
+
+
+
+Lịch sử giao dịch
+
+Bảng giá 
+	- 
+Hướng dẫn 
+	-
+Nạp Tiền 
+	-
+
+Lập
+màu giao diện lấy từ web Stanhat.vn 
+font boostrap 4
+font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
