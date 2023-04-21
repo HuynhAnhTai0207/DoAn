@@ -42,12 +42,12 @@
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="" />
-          <span class="d-none d-lg-block">NiceAdmin</span>
-        </a>
-        <i class="bi bi-list toggle-sidebar-btn"></i>
-      </div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="" />
+        <span class="d-none d-lg-block">NiceAdmin</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div>
       <!-- End Logo -->
 
       <div class="search-bar">
@@ -538,9 +538,74 @@
     <!-- End Sidebar-->
 
   <main id="main" class="main">
-    <p class="text-center p-5">
-      This page is only available in the pro version! <a href="https://bootstrapmade.com/demo/templates/NiceAdmin/pages-contact.html" target="_blank">Preview the page online</a> | <a href="https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/#download" target="_blank">Buy the pro version</a>
-    </p>
+    <div class="card-body">
+      <h5 class="text-primary mb-2">BẠN CẦN HỖ TRỢ GÌ</h5>
+      <div class="mb-3 row">
+<!--        Buớc 2	Người dùng nhập vấn đề, tiêu đề, ID cần hỗ trợ, và mô tả chi tiết.-->
+
+        <label class="col-form-label" for="vande">Vấn đề cần hỗ trợ</label>
+        <div class="mb-3">
+          <select class="form-select" id="vande">
+            <option selected="" disabled="disabled" value="">Chọn vấn đề cần hỗ trợ</option>
+            <option value="Nạp Tiền">Nạp Tiền</option>
+            <option value="Proxy Riêng">Proxy Riêng</option>
+            <option value="Tăng Người Theo Dõi">Tăng Người Theo Dõi (Facebook Bảo Hành)</option>
+            <option value="Tăng Like Fanpage">Tăng Like Fanpage (Facebook Bảo Hành)</option>
+            <option value="Bot Story">Bot Story</option>
+            <option value="Bot Tương Tác">Bot Tương Tác</option>
+            <option value="Buff Comment Bài Viết">Buff Comment Bài Viết</option>
+            <option value="Buff Follow">Buff Follow</option>
+            <option value="Buff Like Bài Viết">Buff Like Bài Viết</option>
+            <option value="Buff Like Fanpage">Buff Like Fanpage</option>
+            <option value="Buff Mắt Livestream">Buff Mắt Livestream</option>
+            <option value="Buff Member Group">Buff Member Group</option>
+            <option value="Buff Review Fanpage">Buff Review Fanpage</option>
+            <option value="Buff Share Bài Viết">Buff Share Bài Viết</option>
+            <option value="Buff View Video FB">Buff View Video Facebook</option>
+            <option value="Chọc Bạn Bè">Chọc Bạn Bè</option>
+            <option value="Vip Comment Tháng">Vip Comment Tháng</option>
+            <option value="Vip Like Tháng">Vip Like Tháng</option>
+            <option value="Vip Mắt Tháng">Vip Mắt Tháng</option>
+            <option value="Lọc Bạn Bè">Lọc Bạn Bè Không Tương Tác</option>
+            <option value="Buff Tim Instagram">Buff Tim Instagram</option>
+            <option value="Buff View Instagram">Buff View Instagram</option>
+            <option value="Buff Follow Instagram">Buff Follow Instagram</option>
+            <option value="Buff Like/Dislike Youtube">Buff Like/Dislike Youtube</option>
+            <option value="Buff View/Live Youtube">Buff View/Live Youtube</option>
+            <option value="Buff Follow Youtube">Buff Follow Youtube</option>
+            <option value="Buff Tim Tiktok">Buff Tim Tiktok</option>
+            <option value="Buff View Tiktok">Buff View Tiktok</option>
+            <option value="Buff Mắt Tiktok">Buff Mắt Tiktok</option>
+            <option value="Buff Follow Tiktok">Buff Follow Tiktok</option>
+            <option value="Buff Follow Shopee">Buff Follow Shopee</option>
+            <option value="Khác">Khác</option>
+          </select>
+        </div>
+        <label class="col-form-label" for="tieude">Tiêu đề hỗ trợ</label>
+        <div class="mb-3">
+          <input class="form-control" id="tieude" type="text" placeholder="Nhập tiêu đề bạn muốn hỗ trợ">
+        </div>
+        <label class="col-form-label" for="idpost">ID cần hỗ trợ</label>
+        <div class="mb-3">
+          <input class="form-control" id="idpost" type="text" placeholder="ID dạng: 100047877030919,186875419585025,starnhathp">
+        </div>
+        <label class="col-form-label" for="chitiet">Mô tả chi tiết</label>
+        <div class="mb-3">
+          <textarea class="form-control" id="chitiet" rows="5" placeholder="Mô tả chi tiết vấn đề cần hỗ trợ"></textarea>
+        </div>
+
+<!--        Kết thúc b2-->
+
+        <div class="col-sm-6 mb-2">
+          <button type="submit" class="btn btn-primary col-12" id="support_ticket">Gửi hỗ trợ</button>
+        </div>
+        <div class="col-sm-6">
+
+<!--          B6-->
+          <button type="button" class="btn btn-danger col-12" onclick="Profile.Display('Lien_He_Ho_Tro','hethong','hotro')"><a style="color: #ffffff" href="index.html">Hủy bỏ</a></button>
+        </div>
+      </div>
+    </div>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -570,7 +635,8 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
