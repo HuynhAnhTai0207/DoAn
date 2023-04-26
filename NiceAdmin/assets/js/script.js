@@ -4,12 +4,12 @@ document.getElementById("support_ticket").addEventListener("click", function() {
     var idpost = document.getElementById("idpost").value;
     var chitiet = document.getElementById("chitiet").value;
 
-    // B5
+    // B6 Nếu bạn chưa nhập đủ thông tin thì khi bấm vào Gửi hỗ trợ sẽ hiển thị Vui lòng nhập đầy đủ thông tin
     if (vande === "" || tieude === "" || idpost === "" || chitiet === "") {
     alert("Vui lòng nhập đầy đủ thông tin.");
     return;
 }
-    //B4 Hiển thị thông báo thành công
+    //B7	Nếu bạn nhập đầy đủ thông tin thì khi bấm vào Gửi hỗ trợ sẽ hiển thị Gửi hỗ trợ thành công
     alert("Gửi hỗ trợ thành công!");
 
 });
